@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
+
+const Hello = () =>{
+    return<p>Hello!</p>
+}
+// ReactDOM.render(<Hello />, document.getElementById('root'));
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
